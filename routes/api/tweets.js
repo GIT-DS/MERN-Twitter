@@ -6,7 +6,7 @@ const passport = require('passport')
 const Tweet = require('../../models/Tweet')
 const validateTweetInput = require('../../validation/tweets')
 
-// router.get("/test", (req, res) => res.json({ msg: "This is the tweets route" }));
+router.get("/test", (req, res) => res.json({ msg: "This is the tweets route" }));
 
 router.get('/', (req, res) => {
     Tweet.find()
