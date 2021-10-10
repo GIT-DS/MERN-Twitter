@@ -62,12 +62,6 @@ class LoginForm extends React.Component {
       <div>
         <form onSubmit={this.handleSubmit}>
           <div>
-              {/* <input type="text"
-                value={this.state.handle}
-                onChange={this.update('handle')}
-                placeholder="handle"
-              />
-              <br/> */}
               <input type="text"
                 value={this.state.email}
                 onChange={this.update('email')}
